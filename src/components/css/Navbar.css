@@ -9,6 +9,15 @@
     flex-wrap: wrap;
     gap: 16px;
     z-index: 1000;
+    transition: transform 0.3s ease;
+}
+
+.navbar.hidden {
+    transform: translateY(-100%);
+}
+
+.navbar.visible {
+    transform: translateY(0);
 }
 
 .navbar a {
