@@ -1,26 +1,40 @@
-.navbar {
-    position: sticky;
+/* Nút menu góc trái */
+.menu-toggle {
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    z-index: 1100;
+    font-size: 24px;
+    background: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+/* Sidebar menu */
+.sidebar {
+    position: fixed;
     top: 0;
+    left: -240px;
+    width: 220px;
+    height: 100%;
     background-color: #ffffff;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    padding: 10px 20px;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+    padding: 60px 20px 20px;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 16px;
-    z-index: 1000;
-    transition: transform 0.3s ease;
+    transition: left 0.3s ease;
+    z-index: 1050;
 }
 
-.navbar.hidden {
-    transform: translateY(-100%);
+.sidebar.open {
+    left: 0;
 }
 
-.navbar.visible {
-    transform: translateY(0);
-}
-
-.navbar a {
+.sidebar a {
     color: #007bff;
     text-decoration: none;
     font-weight: 500;
@@ -29,11 +43,11 @@
     transition: background 0.2s;
 }
 
-.navbar a:hover {
+.sidebar a:hover {
     background-color: #f0f8ff;
 }
 
-.navbar a.active {
+.sidebar a.active {
     background-color: #007bff;
     color: #fff;
 }
