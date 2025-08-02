@@ -1,0 +1,25 @@
+.testimonials {
+    background-color: #fff;
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    /* ✅ Căn trái toàn bộ nội dung */
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+    /* (giữ tiêu đề ở giữa nếu muốn) */
+}
+
+.testimonials blockquote {
+    font-style: italic;
+    color: #444;
+    margin: 20px 0;
+    padding-left: 16px;
+    border-left: 4px solid #007bff;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+}

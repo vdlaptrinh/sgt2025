@@ -1,0 +1,27 @@
+.features {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+    text-align: center;
+    /* Căn giữa tiêu đề */
+}
+
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+    /* ✅ Căn giữa khối danh sách */
+    text-align: left;
+    /* ✅ Căn trái nội dung trong khối */
+}
+
+.features li {
+    font-size: 1.1rem;
+    margin: 12px 0;
+    line-height: 1.6;
+}
