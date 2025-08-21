@@ -37,13 +37,13 @@ export default function Instruction() {
 
       {/* 2. TẢI ỨNG DỤNG */}
       <div className="section">
-        <h3>2. 📲 Tải ứng dụng S-make</h3>
+        <h3>2. 📲 Tải ứng dụng S-Make</h3>
         <p>Quét mã QR hoặc nhấn vào nút bên dưới để tải app:</p>
         <div className="qr-grid">
           <img src="/images/sgt2025-8.jpg" alt="QR Google Play" />
           <a
             className="download-btn"
-            href="https://play.google.com/store/apps/details?id=com.fw.gps.aikashenghuogoogle&hl=vi"
+            href="https://play.google.com/store/apps/details?id=com.smake.googetest.mygoocar&hl=vi"
             target="_blank"
             rel="noreferrer"
           >
@@ -51,7 +51,7 @@ export default function Instruction() {
           </a>
           <a
             className="download-btn"
-            href="https://apps.apple.com/us/app/aksh-gps/id1057139214"
+            href="https://apps.apple.com/vn/app/s-make/id1214215708?l=vi"
             target="_blank"
             rel="noreferrer"
           >
