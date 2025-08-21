@@ -65,13 +65,15 @@ export default function Instruction() {
         <h3>3. 📡 Hướng dẫn sử dụng</h3>
         <ol>
           <li>
-            Mở ứng dụng <strong>AKSH GPS</strong> trên điện thoại
+            Mở ứng dụng <strong>S-Make</strong> trên điện thoại
           </li>
+          <li>Chọn ngôn ngữ tiếng Việt</li>
+          <li>Chọn Quốc tế (Đăng nhập bằng tài khoản quốc tế)</li>
           <li>
             Đăng nhập:
             <ul>
               <li>
-                <strong>ID Number:</strong> Là số in trên thiết bị
+                <strong>IMEI:</strong> Là số in trên thiết bị
               </li>
               <li>
                 <strong>Mật khẩu mặc định:</strong> <code>123456</code>
@@ -82,10 +84,17 @@ export default function Instruction() {
             Giao diện chính gồm các chức năng:
             <ul>
               <li>
-                📍 <strong>Theo dõi vị trí thời gian thực</strong>
+                📍{" "}
+                <strong>
+                  Giám sát: Bấm vào xe để thấy thông tin: Điệp áp bình, Tốc
+                  độ...{" "}
+                </strong>
               </li>
               <li>
-                🗺️ <strong>Xem lại quỹ đạo hành trình</strong>
+                🗺️{" "}
+                <strong>
+                  Danh sách: Chọn xe - Định vị, Lịch sử, Chi tiết, Chỉ dẫn{" "}
+                </strong>
               </li>
             </ul>
           </li>
